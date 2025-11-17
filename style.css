@@ -1,0 +1,147 @@
+body {
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background:url(image.png) no-repeat center center fixed;
+      margin: 0;
+      padding: 0;
+      background-size:cover ;
+    }
+    header {
+      background: #044104;
+      color: rgb(231, 209, 5);
+      padding: 20px;
+      text-align: center;
+    }
+    /*=====h1=====*/
+    header h1 {
+      position: relative;
+      z-index: 1;
+      font-size: 48px;
+    }
+    header h1::after {
+      content:'Explore Africa';
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      position:absolute;
+      top: 100%;
+      right: 0%;
+      transform: translate(-50%, -50%);
+      font-size: 100px;
+      font-style: italic;
+      color: rgba(255,255,255,0.4);
+      font-weight:lighter;
+      z-index: -1;
+      pointer-events: none;
+      white-space: nowrap;
+    }
+    header h1, header p {
+      position: relative;
+      z-index: 1;
+    }
+    /*=====container=====*/
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: 30px auto;
+      background:#7baf62;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    /*=====h2=====*/
+      h2 {
+      color: #026902;
+    }
+    form {
+      margin-top: 15px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    /*=====button=====*/
+    button {
+      background: #026902;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    button:hover {
+      background: #034d02;
+    }
+    .success {
+      margin-top: 10px;
+      padding: 10px;
+      background: #c8f7c5;
+      color: #1b5e20;
+      border-radius: 5px;
+      display: none;
+    }
+    /*=====contact-wrapper=====*/
+    .contact-wrapper {
+      width: 90%;
+      max-width: 1100px;
+      margin: 40px auto;
+      display: flex;
+      gap: 40px;
+      background: rgba(255,255,255,0.43);
+      padding: 30px;
+      border-radius: 12px;
+    }
+/*=====info-box=====*/
+    .info-box {
+      width: 35%;
+    }
+
+    /*=====info-item=====*/
+    .info-item {
+      display: flex;
+      gap: 15px;
+      margin: 25px 0;
+      align-items: center;
+    }
+
+    .info-item i {
+      font-size: 28px;
+      padding: 15px;
+      border-radius: 50%;
+    }
+
+/*=====form box====*/
+    .form-box {
+      width: 65%;
+    }
+    .form-box input,
+    .form-box textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .form-box button {
+      width: 100%;
+      background: #1b5e20;
+      color: yellow;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .form-box button:hover {
+      background: #7baf62;
+    }
+
+  
